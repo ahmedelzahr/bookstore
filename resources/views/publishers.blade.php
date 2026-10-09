@@ -1,0 +1,1 @@
+<x-list-group :cardHeader="__('site.Books Publishers')" :items="$publishers" :title="$title" :emptyStatement="__('site.No Publishers Found')" :routeName="'publisher.books'"  :searchRoute="route('publisher.search')"/>

@@ -1,0 +1,1 @@
+<x-list-group :cardHeader="__('site.Books Categories')" :items="$categories" :title="$title" :emptyStatement="__('site.No Ctegories Found')" :routeName="'catgory.books'"  :searchRoute="route('category.search')"/>

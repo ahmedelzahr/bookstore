@@ -1,0 +1,158 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Site UI Translations (English)
+    |--------------------------------------------------------------------------
+    |
+    | UI labels used across the site. Keys are grouped under 'site.*'.
+    |
+    */
+
+    // UI labels
+    'Email' => 'Email',
+    'Password' => 'Password',
+    'Remember me' => 'Remember me',
+    'Forgot your password?' => 'Forgot your password?',
+    'Log in' => 'Log in',
+    'Register' => 'Register',
+    'Name' => 'Name',
+    'Confirm Password' => 'Confirm Password',
+    'Verify Email Address' => 'Verify Email Address',
+    'Send Password Reset Link' => 'Send Password Reset Link',
+    'Reset Password' => 'Reset Password',
+    'Two Factor Authentication' => 'Two Factor Authentication',
+    'Logout' => 'Logout',
+    'Log Out' => 'Log Out',
+    'Profile' => 'Profile',
+    'Profile Information' => 'Profile Information',
+    'Update your account\'s profile information and email address.' => 'Update your account\'s profile information and email address.',
+    'Photo' => 'Photo',
+    'Select A New Photo' => 'Select A New Photo',
+    'Remove Photo' => 'Remove Photo',
+    'Dashboard' => 'Dashboard',
+    'Search' => 'Search',
+    'Submit' => 'Submit',
+    'Cancel' => 'Cancel',
+    'Close' => 'Close',
+    'Save' => 'Save',
+    'Saved.' => 'Saved.',
+    'Update' => 'Update',
+    'Update Password' => 'Update Password',
+    'Ensure your account is using a long, random password to stay secure.' => 'Ensure your account is using a long, random password to stay secure.',
+    'Current Password' => 'Current Password',
+    'New Password' => 'New Password',
+    'Delete' => 'Delete',
+    'Create' => 'Create',
+
+    // API tokens
+    'Create API Token' => 'Create API Token',
+    'API Tokens' => 'API Tokens',
+    'API Token' => 'API Token',
+    'API Token Permissions' => 'API Token Permissions',
+    'Manage API Tokens' => 'Manage API Tokens',
+    'API tokens allow third-party services to authenticate with our application on your behalf.' => 'API tokens allow third-party services to authenticate with our application on your behalf.',
+    'Token Name' => 'Token Name',
+    'Permissions' => 'Permissions',
+    'Last used' => 'Last used',
+    'Created.' => 'Created.',
+    'Please copy your new API token. For your security, it won\'t be shown again.' => 'Please copy your new API token. For your security, it won\'t be shown again.',
+    'Delete API Token' => 'Delete API Token',
+    'Are you sure you would like to delete this API token?' => 'Are you sure you would like to delete this API token?',
+
+    // Browser session / security
+    'Browser Sessions' => 'Browser Sessions',
+    'Manage and log out your active sessions on other browsers and devices.' => 'Manage and log out your active sessions on other browsers and devices.',
+    'If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password.' => 'If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password.',
+    'Unknown' => 'Unknown',
+    'This device' => 'This device',
+    'Last active' => 'Last active',
+    'Log Out Other Browser Sessions' => 'Log Out Other Browser Sessions',
+    'Done.' => 'Done.',
+    'Please enter your password to confirm you would like to log out of your other browser sessions across all of your devices.' => 'Please enter your password to confirm you would like to log out of your other browser sessions across all of your devices.',
+
+    // Two factor
+    'Add additional security to your account using two factor authentication.' => 'Add additional security to your account using two factor authentication.',
+    'Finish enabling two factor authentication.' => 'Finish enabling two factor authentication.',
+    'You have enabled two factor authentication.' => 'You have enabled two factor authentication.',
+    'You have not enabled two factor authentication.' => 'You have not enabled two factor authentication.',
+    'When two factor authentication is enabled, you will be prompted for a secure, random token during authentication. You may retrieve this token from your phone\'s Google Authenticator application.' => 'When two factor authentication is enabled, you will be prompted for a secure, random token during authentication. You may retrieve this token from your phone\'s Google Authenticator application.',
+    'To finish enabling two factor authentication, scan the following QR code using your phone\'s authenticator application or enter the setup key and provide the generated OTP code.' => 'To finish enabling two factor authentication, scan the following QR code using your phone\'s authenticator application or enter the setup key and provide the generated OTP code.',
+    'Two factor authentication is now enabled. Scan the following QR code using your phone\'s authenticator application or enter the setup key.' => 'Two factor authentication is now enabled. Scan the following QR code using your phone\'s authenticator application or enter the setup key.',
+    'Setup Key' => 'Setup Key',
+    'Code' => 'Code',
+    'Store these recovery codes in a secure password manager. They can be used to recover access to your account if your two factor authentication device is lost.' => 'Store these recovery codes in a secure password manager. They can be used to recover access to your account if your two factor authentication device is lost.',
+    'Enable' => 'Enable',
+    'Regenerate Recovery Codes' => 'Regenerate Recovery Codes',
+    'Confirm' => 'Confirm',
+    'Show Recovery Codes' => 'Show Recovery Codes',
+    'Disable' => 'Disable',
+
+    // Email verification & auth
+    'Before continuing, could you verify your email address by clicking on the link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.' => 'Before continuing, could you verify your email address by clicking on the link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.',
+    'A new verification link has been sent to the email address you provided in your profile settings.' => 'A new verification link has been sent to the email address you provided in your profile settings.',
+    'Resend Verification Email' => 'Resend Verification Email',
+    'Edit Profile' => 'Edit Profile',
+
+    // General messages
+    'Whoops! Something went wrong.' => 'Whoops! Something went wrong.',
+    'For your security, please confirm your password to continue.' => 'For your security, please confirm your password to continue.',
+    'Please confirm access to your account by entering the authentication code provided by your authenticator application.' => 'Please confirm access to your account by entering the authentication code provided by your authenticator application.',
+    'Please confirm access to your account by entering one of your emergency recovery codes.' => 'Please confirm access to your account by entering one of your emergency recovery codes.',
+    'Recovery Code' => 'Recovery Code',
+    'Use a recovery code' => 'Use a recovery code',
+    'Use an authentication code' => 'Use an authentication code',
+    'Email Password Reset Link' => 'Email Password Reset Link',
+    'Terms of Service' => 'Terms of Service',
+    'Privacy Policy' => 'Privacy Policy',
+    'Already registered?' => 'Already registered?',
+    'Let\'s get started' => 'Let\'s get started',
+    'Laravel has an incredibly rich ecosystem. We suggest starting with the following.' => 'Laravel has an incredibly rich ecosystem. <br>We suggest starting with the following.',
+    'Read the' => 'Read the',
+    'Documentation' => 'Documentation',
+    'Watch video tutorials at' => 'Watch video tutorials at',
+    'Laracasts' => 'Laracasts',
+    'Deploy now' => 'Deploy now',
+    'Welcome to your Jetstream application!' => 'Welcome to your Jetstream application!',
+    'Explore the documentation' => 'Explore the documentation',
+    'Start watching Laracasts' => 'Start watching Laracasts',
+    'Tailwind' => 'Tailwind',
+    'Authentication' => 'Authentication',
+    'Delete Account' => 'Delete Account',
+    'Permanently delete your account.' => 'Permanently delete your account.',
+    'Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.' => 'Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.',
+    'Are you sure you want to delete your account? Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account.' => 'Are you sure you want to delete your account? Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account.',
+    'Create Account' => 'Create Account',
+    'You have been invited to join the :team team!' => 'You have been invited to join the :team team!',
+    'If you do not have an account, you may create one by clicking the button below. After creating an account, you may click the invitation acceptance button in this email to accept the team invitation:' => 'If you do not have an account, you may create one by clicking the button below. After creating an account, you may click the invitation acceptance button in this email to accept the team invitation:',
+    'If you already have an account, you may accept this invitation by clicking the button below:' => 'If you already have an account, you may accept this invitation by clicking the button below:',
+    'You may accept this invitation by clicking the button below:' => 'You may accept this invitation by clicking the button below:',
+    'Accept Invitation' => 'Accept Invitation',
+    'If you did not expect to receive an invitation to this team, you may discard this email.' => 'If you did not expect to receive an invitation to this team, you may discard this email.',
+    'Book Galary'=>'Books Galary',
+    'Search Result'=>'Search Result',
+     'Book Details' =>'Book Details',
+     'title' =>'title',
+     'Book Cover' => 'Book Cover',
+     'Category' => 'Category',
+     'Description' => 'Description',
+     'Number Of Pages' => 'Number Of Pages',
+     'Number Of Copies' => 'Number Of Copies',
+     'Price' => 'Price',
+     'Category Books'=>'Category Books',
+    // Main 
+    'Hasoub Library' => 'Hasoub Library',
+    'Catgories' => 'Catgories',
+    'Publishers' => 'Publishers',
+    'Authors' => 'Authors' ,
+    // Authentication messages
+    'failed' => 'These credentials do not match our records.',
+    'password' => 'The provided password is incorrect.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+
+    'Rate This Book' =>'Rate This Book',
+    'Book Rate' => 'Book Rate' 
+
+];
